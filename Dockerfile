@@ -7,3 +7,5 @@ RUN \
   && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/
+
+ADD read-genericjmx.conf /etc/collectd/conf-available/
